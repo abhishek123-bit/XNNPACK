@@ -63,7 +63,7 @@ http_archive(
     build_file = "@//third_party:clog.BUILD",
 )
 
-# cpuinfo library, used for detecting processor characteristics
+# CPU info library, used for detecting processor characteristics
 http_archive(
     name = "cpuinfo",
     strip_prefix = "cpuinfo-d5e37adf1406cf899d7d9ec1d317c47506ccb970",
